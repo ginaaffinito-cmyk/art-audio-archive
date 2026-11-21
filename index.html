@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Archivio digitale delle mostre e audioguide a cura di Gina Affinito">
+<title>Gina Affinito | Art Audio Archive</title>
+<style>
+:root{--bg:#f7f5ef;--ink:#302e2a;--muted:#756f67;--line:#dcd7cc;--accent:#8c7965}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.65}header{padding:30px max(24px,7vw);border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;align-items:center}header a{text-decoration:none;color:inherit;letter-spacing:.15em;font-size:.85rem}nav a{letter-spacing:normal;color:var(--muted)}main{max-width:1120px;margin:auto;padding:80px 24px 110px}.eyebrow{font-size:.75rem;letter-spacing:.24em;text-transform:uppercase;color:var(--accent)}h1{font-family:Georgia,serif;font-weight:normal;font-size:clamp(3rem,8vw,6.5rem);line-height:1.05;letter-spacing:-.04em;margin:24px 0}h2{font-family:Georgia,serif;font-weight:normal;font-size:2rem}.intro{font-size:1.12rem;max-width:650px;color:var(--muted)}section{margin-top:90px}.rule{border-top:1px solid var(--line);padding-top:20px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}.card{background:#efebe3;border:1px solid var(--line);padding:28px;min-height:245px;display:flex;flex-direction:column;justify-content:space-between}.card small{color:var(--muted);letter-spacing:.1em;text-transform:uppercase}.card h3{font-family:Georgia,serif;font-size:1.8rem;font-weight:normal;margin:12px 0}.card p{margin:0;color:var(--muted)}.tag{display:inline-block;border:1px solid #bdb5a7;padding:5px 10px;font-size:.75rem;color:var(--muted);width:max-content}footer{padding:30px max(24px,7vw);border-top:1px solid var(--line);color:var(--muted);font-size:.85rem}a{color:inherit}.note{background:#eeeae1;padding:20px 24px;border-left:2px solid var(--accent);color:var(--muted)}
+</style>
+</head>
+<body>
+<header><a href="./">GINA AFFINITO <span style="color:#8c7965">/ ART AUDIO ARCHIVE</span></a><nav><a href="#mostre">Mostre</a></nav></header>
+<main>
+<p class="eyebrow">Archivio digitale · Arte contemporanea</p>
+<h1>L'arte si guarda.<br>Si ascolta.<br>Resta.</h1>
+<p class="intro">Un archivio delle mostre curate da Gina Affinito: percorsi espositivi, opere, parole e audioguide. Uno spazio accessibile, dove ogni esposizione continua a raccontarsi nel tempo.</p>
+<section id="mostre"><div class="rule"><p class="eyebrow">Esposizioni</p><h2>Le mostre</h2></div>
+<div class="grid">
+<article class="card"><div><small>Lecce · Dicembre 2026</small><h3>Etica ed Estetica</h3><p>Un'indagine contemporanea sul rapporto fra essere e apparire.</p></div><span class="tag">Percorso in preparazione</span></article>
+<article class="card"><div><small>Viareggio · Febbraio 2027</small><h3>Sottopelle</h3><p>L'invisibile, l'identità e le maschere dell'anima.</p></div><span class="tag">Percorso in preparazione</span></article>
+</div>
+</section>
+<section><div class="rule"><p class="eyebrow">Come funziona</p><h2>Un'opera, una voce</h2></div><p class="intro">Ogni opera potrà avere una pagina dedicata con fotografia, dati tecnici, testo critico e audio. Durante le esposizioni, un QR code accanto all'opera consentirà di aprire la scheda direttamente dal telefono.</p><div class="note">Questo è il primo modello dell'archivio. Le schede delle opere, i file audio e i QR code saranno aggiunti nella fase successiva.</div></section>
+</main>
+<footer>© <span id="year"></span> Gina Affinito · Art Audio Archive · <a href="https://www.ginaaffinito.com" rel="noopener noreferrer">ginaaffinito.com</a></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
